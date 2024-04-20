@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: linear-gradient(to right, #cbe2dc , #e8eeee);
+}
+.navBg{
+    background: linear-gradient(to right, #cbe2dc , #e8eeee);
+    
+}
+.navShadow {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
+
+
+
+
+
+.menu {
+    position: fixed;
+    top: 104px;
+    right: 0;
+    transform: translateX(100%);
+    transition:   3s ease-in;
+}
+
+
+
+.active { 
+    transform: translateX(0);
+}
